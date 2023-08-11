@@ -1,0 +1,174 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    --color1:rgb(162, 254, 252);
+    --color2:rgb(97, 249, 249);
+    color:#6685A1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+#container{
+    width: 65%;
+    height: 100vh;
+    background-color: var(--color1);
+    display: flex;
+    margin:auto
+}
+#sub-container1{
+background-image: linear-gradient(#F2FBFA, #CBE3DD);
+width: 30%;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+box-shadow:  0 20px 25px #CBE3DD;
+z-index: 2;
+}
+#sub-container2{
+    background-image: linear-gradient(#CDF2F2,  #94BEB4);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    }
+#sub-container1 section{
+    width:auto;
+}
+#top{
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#top div> p{
+    font-weight: bold;
+
+}
+#top p+p{
+    margin-left: 12%;
+    font-weight: lighter;
+}
+.img img{
+    width: 80px;
+    height:80px;
+    border-radius:50%;
+}
+#middle{
+    display: flex;
+    flex-grow: 0.7;
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+li{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 80px;
+    list-style: none;
+}
+ul{
+ margin: 0 15px;   
+}
+#middle ul li span{
+    font-size: 30px;
+    margin-top: 20px;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+#bottom{
+    flex-grow: 1.5;
+    padding-top: 30px;
+}
+#bottom div{
+    background-color: #80CBC2;
+    width: 250px;
+    height: 120px;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom div p{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #C4D9D9;
+}
+#bottom div span{
+    transform:rotate(-30deg);
+  font-size: 100px;
+
+}
+#right-top{
+padding-left: 70px;
+flex-basis: 25%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.text{
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+.divi{
+    border-radius: 20px;
+    width:50%;
+    height: 20px;
+    background-color: #E5F9F7;
+}
+#right-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content{
+    display: flex;
+    width:80%;
+    background-color: #EBFBF9;
+    border-radius: 10px;
+    height:120px;
+    margin-top:30px;
+    align-items: center;
+    padding-left: 25px;
+    justify-content: space-between;
+    box-shadow: 0 0 15px 0px #879bac;;
+}
+.anime-image img{
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    margin-right: 0px;
+}
+.text-in-main > p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+.text-in-main p + p{
+    font-size: 12px;
+    margin-bottom: 3px;
+    
+}
+.bar{
+    border-radius: 20px;
+    width:220px;
+    height: 20px;
+    background-color: #93E8DA;
+}
+.content >p{
+    font-size: 18px;
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-right: 20px;
+    font-weight: bold;
+}
